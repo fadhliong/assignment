@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: assignment
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    sql:
+      init:
+        mode: always
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 8080
+
+exchange:
+  binance:
+    base-url: "https://api.binance.com"
+    ticker-path: "/api/v3/ticker/bookTicker"
+    connect-timeout: 5000
+    read-timeout: 5000
+  huobi:
+    base-url: "https://api.huobi.pro"
+    ticker-path: "/market/tickers"
+    connect-timeout: 5000
+    read-timeout: 5000
