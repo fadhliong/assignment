@@ -86,7 +86,6 @@ Get current wallet balances for all supported currencies.
 Built with:
 - Spring Boot
 - JPA/Hibernate
-- Jakarta Validation
 - Lombok
 - Spring Web
 - SLF4J for logging
