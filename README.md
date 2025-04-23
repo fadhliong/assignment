@@ -24,7 +24,7 @@ The application follows a clean architecture with separation of concerns:
 
 To run the application:
 
-1. Compile the project using your preferred Java build tool (Maven or Gradle)
+1. Compile the project using Maven
 2. Run the main application class
 
 ## Usage Guide
